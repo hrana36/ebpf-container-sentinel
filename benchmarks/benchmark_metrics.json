@@ -1,0 +1,11 @@
+{
+  "throughput_events_per_sec": 223697.7,
+  "mean_latency_overhead_us": 4.47,
+  "auditd_baseline_us": 14.85,
+  "speedup_factor": 3.32,
+  "accuracy_percentage": 100.0,
+  "recall_detection_rate": 100.0,
+  "precision": 100.0,
+  "f1_score": 100.0,
+  "total_streamed_events": 50000
+}

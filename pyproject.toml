@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ebpf-container-sentinel"
+version = "1.0.0"
+description = "Low-Overhead In-Kernel Observability and Security Telemetry Engine for Containerized Workloads using eBPF and Ring Buffers"
+readme = "README.md"
+authors = [
+    { name = "Md Habibur Rahaman Rana", email = "hrana36@gmail.com" }
+]
+license = { text = "MIT" }
+keywords = ["ebpf", "linux-kernel", "container-security", "cloud-native", "telemetry", "ring-buffer", "mitre-attack", "systems-observability"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: System :: Operating System Kernels :: Linux",
+    "Topic :: Security",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: C",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/hrana36/ebpf-container-sentinel"
+"Bug Tracker" = "https://github.com/hrana36/ebpf-container-sentinel/issues"
